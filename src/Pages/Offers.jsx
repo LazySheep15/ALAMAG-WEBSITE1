@@ -1,16 +1,16 @@
 import '../App.css';
 import React from 'react';
 
-function Menu () {
+function Offers () {
     return(
         <>
         <div
             class = "backgroundImage"
             style = {{
                height: "1000px",
-               width: "1520px",
+               width: "1400px",
                backgroundImage:
-               'url("https://th.bing.com/th/id/R.f1c149f7212a9a2496d7f1c18d298355?rik=yK9ooqsH2rrE4w&riu=http%3a%2f%2ffilipinosincanada.com%2fwp-content%2fuploads%2f2018%2f05%2fIMG_0554.jpg&ehk=fZou8ZrkLu1k6yvJoOaCZb7KCN4bSH1fTJmrydtfIfY%3d&risl=&pid=ImgRaw&r=0")',
+               'url("https://1.bp.blogspot.com/-ecSOwf7WZrY/XuUKFBPc9zI/AAAAAAAAppU/7xjnddpRQMk32Zosy1S8gHfjWC7x3mjsgCK4BGAsYHg/s1845/jobstreet2.JPG")',
                backgroundSize: "contain",
                backgroundRepeat: "no-repeat",
             }} >
@@ -19,7 +19,7 @@ function Menu () {
         </div>
         
         </>
-    ) 
+    )
 }
 
-export default Menu;
+export default Offers;

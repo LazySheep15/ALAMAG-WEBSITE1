@@ -3,10 +3,10 @@ import NavBar from './Components/NavBar';
 import {Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './Pages/HomePage';
-import Branches from './Pages/Branches';
+import Offers from './Pages/Offers';
 import Login from './Pages/Login';
 import Registration from './Pages/Registration';
-import Menu from './Pages/Menu';
+import Applied from './Pages/Applied';
 
 
 function App() {
@@ -15,11 +15,11 @@ function App() {
        <NavBar />
        <Routes>
        <Route path="/home" element={<HomePage />} />
-       <Route path="/branches" element={<Branches />} />
+       <Route path="/offers" element={<Offers />} />
        <Route path="/login" element={<Login />} />
        <Route path="/registration" element={<Registration />} />
        <Route path="/sign-in" element={<Login />} />
-       <Route path="/menu" element={< Menu />} />
+       <Route path="/applied" element={< Applied />} />
        </Routes>
        </>
     );

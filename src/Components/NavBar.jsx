@@ -11,8 +11,8 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/branches">Branch Locations</Nav.Link>
-            <Nav.Link href="/menu">Menu</Nav.Link>
+            <Nav.Link href="/offers">Job Offers</Nav.Link>
+            <Nav.Link href="/applied">Applied Jobs</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="/registration"><button type="button" class="btn btn-light">Register</button></Nav.Link>
